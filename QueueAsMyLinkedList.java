@@ -26,21 +26,6 @@ public class QueueAsMyLinkedList<E>
 		return counter;
 	}
 	
-	/*public  E dequeue()
-    {  
-		E temp = null;
-		boolean isDone = false;
-		
-		temp = theQueue.getFirst();
-		if (temp != null)
-		{
-			isDone=theQueue.delete(temp);
-		}
-		if (isDone)
-			return temp;
-		else
-			return null;
-	}*/
 	
 	public void dequeue()
 	{		
